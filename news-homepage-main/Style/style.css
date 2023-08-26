@@ -1,0 +1,133 @@
+@media only screen and (max-width: 768px) {
+    .img1 {
+        background: url('../assets/images/image-web-3-mobile.jpg') no-repeat;
+        background-size: cover;
+        height: 300px;
+        width: 100% !important;
+    }
+    .img1-display {
+        display: none;
+    }
+    .icon {
+        background: url('../assets/images/icon-menu.svg') no-repeat;
+        height: 20px;
+        width: 40px;
+        display: block !important;
+    }
+    .close-icon {
+        background: url('../assets/images/icon-menu-close.svg') no-repeat;
+        position: fixed;
+        margin-left: 190px;
+        margin-top: 30px;
+        width: 220px;
+        height: 40px;
+    }
+    .heading {
+        font-family: 'Inter', sans-serif;
+        font-weight: 800;
+        font-size: 50px !important;
+    }
+    p:nth-of-type(1) { 
+        margin-top: 15px;
+    }
+    .div-2 {
+        margin-top: 10%;
+
+    }
+    h3 {
+        font-size: 20px;
+    }
+    .mobile-menu {
+        background-color: white;
+        height: 100% !important;
+        width: 50%;
+        position: fixed;
+        z-index: 1000;
+        display: none;
+        right: 0;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        box-shadow: 24px 4px 88px 0  rgba(0, 0, 0, 0.2),  0 6px 20px 0  rgba(0, 0, 0, 0.19);
+       
+    }
+    ul li {
+        padding-top: 3px;
+        padding-left: 4px;
+        font-family: 'Inter', sans-serif;
+        font-size: 20px;
+    }
+    ul li a {
+        color: black !important;
+    }
+    ul li:nth-of-type(1) {
+        margin-top: 150px;
+    }
+}
+
+nav {
+    background-color: white !important;
+}
+nav ul {
+    font-family: 'Inter', sans-serif;
+
+}
+nav ul li a:hover, a:focus {
+    color: hsl(5, 85%, 63%) !important;
+}
+.img1 {
+    width: 100%; 
+}
+.icon {
+    display: none;
+}
+.heading {
+    font-size: 60px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    line-height: 100%;
+}
+
+button {
+    background-color: hsl(5, 85%, 63%);
+    border: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+button:hover {
+    background-color: hsl(240, 100%, 5%);
+    color: white;
+}
+.div-2 {
+    background-color: hsl(240, 100%, 5%);
+    height: auto !important;
+    margin-right: 15px;
+}
+.div-2 h2 {
+    color: hsl(35, 77%, 62%);
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+.div-2 h5 {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+.div-2 h5:hover {
+    color: hsl(35, 77%, 62%) !important;
+}
+.div-3 h3 {
+    font-weight: bold;
+    color: grey;
+}
+.div-3 h4 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+}
+.div-3 h4:hover {
+    color: hsl(5, 85%, 63%)
+}
+* p {
+    font-family: 'Inter', sans-serif;
+}
