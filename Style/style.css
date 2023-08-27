@@ -17,7 +17,7 @@
     .close-icon {
         background: url('../assets/images/icon-menu-close.svg') no-repeat;
         position: fixed;
-        margin-left: 190px;
+        margin-left: 150px;
         margin-top: 30px;
         width: 220px;
         height: 40px;
@@ -65,9 +65,10 @@
     }
 }
 
-nav {
-    background-color: white !important;
+html body {
+    background-color: bisque;
 }
+
 nav ul {
     font-family: 'Inter', sans-serif;
 
